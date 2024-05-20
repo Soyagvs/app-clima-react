@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import "./styles/weatherStyles.css";
 
 export const WeatherApp = () => {
@@ -37,6 +37,7 @@ export const WeatherApp = () => {
           value={city}
           onChange={handleCityChange}
           placeholder="Enter city"
+          required
         />
         <button type="submit">Buscar</button>
       </form>

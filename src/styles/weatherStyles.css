@@ -62,7 +62,7 @@ img {
 /* Estilos para móviles */
 @media (max-width: 1216px){
     body {
-    background-image: url("../../public/bg.jpg");
+    background-image: url("/bg.jpg");
     background-repeat: no-repeat;
     background-size:100% 300%;
   }
@@ -94,7 +94,7 @@ img {
   }
 
   body {
-    background-image: url("../../public/bg.jpg");
+    background-image: url("/bg.jpg");
     background-repeat: no-repeat;
     background-size:100% 300%;
   }
